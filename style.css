@@ -1,0 +1,102 @@
+* { /* padrão em todos os projetos */
+    margin: 0; /* margem */
+    padding: 0; /* espaçamento interno */
+    box-sizing: border-box; /* tamanho da caixa */
+    font-family: 'Open Sans', sans-serif; /* fonte do texto */
+}
+
+body { 
+    display: flex; /* modo de display necessário para alinhar */
+    justify-content: center; /* centraliza o conteudo */
+    align-items: center; /* alinha os itens ao centro */
+    height: 100vh; /* altura */
+    width: 100vw; /* largura */
+    background-image: url("https://source.unsplash.com/1920x1080/?landscape"); /* imagem de fundo que muda automaticamente */
+}
+
+.caixa-maior {
+    background-color: #000000c7; /* cor de fundo */
+    width: 95%; /* largura ocupando 95% da tela*/
+    max-width: 420px; /* largura máxima*/
+    opacity: 0.8; /* transparencia do item */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 25px; /* arredonda as bordas */
+}
+
+input {
+    text-align: center; /* centraliza o texto */
+    border: none; /* borda do elemento */
+    outline: none; /* borda quando seleciona o elemento */
+    padding: 10px; /* espaçamento interno*/
+    border-radius: 24px; /* arredonda as bordas */
+    font-size: 20px; /* tamanho do texto */
+    color: #ffffff; /* cor do texto */
+    background-color: #7c7c7c2b; /* cor de fundo */
+    width: calc(100% - 60px); /* largura do input */
+}
+
+button {
+    border: none; /* borda do elemento */
+    outline: none; /* borda quando seleciona o elemento */
+    padding: 10px; /* espaçamento interno */
+    border-radius: 50px; /* raio da borda -arredondonda o objeto */
+    background-color: #7c7c7c2b; /* cor de fundo */
+    float: right; /* joga o objeto o máximo que puder para a direita */
+
+}
+
+button:hover { /* evento de passar o mouse por cima elemento */
+    background-color: #7c7c7c6b; /* cor de fundo */
+    cursor: pointer; /* curso do mouse se transforma em mãozinha */
+}
+
+.lupa { 
+    height: 20px; /* altura do elemento */
+    scale: 1.4; /* escala do elemento */
+}
+
+.caixa-media {
+    margin-top: 20px; /* distancia do topo */
+}
+
+h2 {
+    display: flex; /* modo de display necessário para alinhar */
+    justify-content: center; /* centraliza o conteudo */
+    color:#ffffff; /* cor do texto */
+    font-size: 28px; /* tamanho do texto */
+}
+
+.icone {
+    display: flex; /* modo de display necessário para alinhar */
+    margin-top: 65px; /* distancia do topo */
+    scale: 1.5; /* escala do elemento */
+    justify-content: center; /* joga o conteudo para direita */
+    float: right; /* joga o objeto o máximo que puder para a direita */
+}
+
+.temp {
+    display: flex; /* modo de display necessário para alinhar */
+    justify-content: right; /* joga o conteudo para direita */
+    float: right; /* joga o objeto o máximo que puder para a direita */
+    padding: 5px; /* espaçamento interno */
+    font-size: 56px; /* tamanho do texto */
+    margin-top: 10px; /* distancia do topo */
+    margin-right: 20px; /* espaçamento a margem direita */
+    width: 50%; /* largura */
+    color: #ffffff; /* cor do texto */
+}
+
+.descricao {
+    font-size: 15px; /* tamanho do texto */
+    margin-top: 22.5px; /* distancia do topo */
+    width: 50%; /* largura */
+    color: #ffffff; /* cor do texto */
+    text-transform: capitalize; /* coloca a primeira letra como maiúscula */
+}
+
+.umidade {
+    font-size: 15px; /* tamanho do texto */
+    margin-top: 22.5px; /* distancia do topo */
+    width: 50%; /* largura */
+    color: #ffffff; /* cor do texto */
+}
